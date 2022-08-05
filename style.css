@@ -1,0 +1,31 @@
+body{
+    background-color: #e0ffff;
+    color: #4c4c4c;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color: #4c4c4c;
+
+}
+a:hover{
+    color: #00008b;
+}
+a:active{
+    color:#0000ff;
+}
+img{
+    height: auto; 
+    width: 500px; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+h1,h2{
+    text-align: center;
+}
+h2
+{
+    border-bottom:1px solid #4c4c4c;
+    padding-bottom:3px;
+}
