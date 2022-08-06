@@ -21,11 +21,23 @@ img{
     margin-right: auto;
     display: block;
 }
-h1,h2{
+h1,h2,h3{
     text-align: center;
+
 }
 h2
 {
     border-bottom:1px solid #4c4c4c;
     padding-bottom:3px;
+
+}
+ul,ol{
+    text-align: left;
+    width: 50%;
+    margin: auto; 
+}
+p {
+    text-align: left;
+    margin: auto;
+    width: 50%;
 }
