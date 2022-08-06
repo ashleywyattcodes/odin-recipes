@@ -2,6 +2,7 @@ body{
     background-color: #e0ffff;
     color: #4c4c4c;
     text-align: left;
+    font-family: 'Times New Roman', Times, serif;
 }
 a{
     text-decoration: none;
@@ -27,9 +28,10 @@ h1,h2,h3{
 }
 h2
 {
-    border-bottom:1px solid #4c4c4c;
+    border-bottom:1px dotted #4c4c4c;
     padding-bottom:3px;
-
+    margin-left: 200px;
+    margin-right: 200px;
 }
 ul,ol{
     text-align: left;
@@ -40,4 +42,5 @@ p {
     text-align: left;
     margin: auto;
     width: 50%;
+    padding: 20px;
 }
