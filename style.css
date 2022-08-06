@@ -4,27 +4,9 @@ body{
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
 }
-a{
-    text-decoration: none;
-    color: #4c4c4c;
-
-}
-a:hover{
-    color: #00008b;
-}
-a:active{
-    color:#0000ff;
-}
-img{
-    height: auto; 
-    width: 500px; 
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
 h1,h2,h3{
     text-align: center;
-
+    font-family: 'Courier New', Courier, monospace;
 }
 h2
 {
@@ -33,14 +15,69 @@ h2
     margin-left: 200px;
     margin-right: 200px;
 }
-ul,ol{
-    text-align: left;
-    width: 50%;
-    margin: auto; 
-}
 p {
     text-align: left;
     margin: auto;
     width: 50%;
     padding: 20px;
 }
+/* List styling */
+ul,ol{
+    text-align: left;
+    width: 50%;
+    margin: auto; 
+}
+
+
+/* link styling */
+a:hover{
+    color: #00008b;
+}
+a:active{
+    color:#0000ff;
+}
+a{
+    text-decoration: none;
+    color: #4c4c4c;
+
+}
+/*img styling */
+img, .recipe-flex{
+    height: auto; 
+    width: 500px; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/* FLEX-BOX CODE For Links */
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 16px auto;
+}
+.index-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .index-li {
+    list-style: none;
+    display: inline-block;
+    width: calc(100% / 3);
+    height: 120px;
+    text-align: center;
+  }
+  /* FLEXBOX LINKS for Recipe Images */
+  .flex-2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 16px auto;
+  }
+  
