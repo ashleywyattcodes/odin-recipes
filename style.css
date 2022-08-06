@@ -53,9 +53,7 @@ img, .recipe-flex{
 .flex-container{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    width: 50%;
-    margin: 16px auto;
+   justify-content: space-around;
 }
 .index-flex {
     display: flex;
@@ -75,9 +73,11 @@ img, .recipe-flex{
   /* FLEXBOX LINKS for Recipe Images */
   .flex-2{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 50%;
-    margin: 16px auto;
+    background-color: #afcece;
+    justify-content: center;
   }
-  
+  .recipe-flex {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+  }
